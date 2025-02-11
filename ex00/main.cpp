@@ -6,7 +6,7 @@
 /*   By: albillie <albillie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/02 11:03:05 by albillie          #+#    #+#             */
-/*   Updated: 2025/02/11 02:40:43 by albillie         ###   ########.fr       */
+/*   Updated: 2025/02/11 19:06:03 by albillie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 int main( void )
 {
 	Fixed a;
+	a.setRawBits(1);
 	Fixed b( a );
 	Fixed c;
 
